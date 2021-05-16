@@ -32,11 +32,11 @@ export default createSchema({
     category,
     author,
     mainImage,
+    youtube,
     authorReference,
     bodyPortableText,
     bioPortableText,
     excerptPortableText,
-    youtube,
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
