@@ -32,7 +32,6 @@ export default createSchema({
     category,
     author,
     mainImage,
-    youtube,
     authorReference,
     bodyPortableText,
     bioPortableText,
