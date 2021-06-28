@@ -2,6 +2,8 @@ import React from "react";
 import { Figure } from "./Figure";
 import getYouTubeId from "get-youtube-id";
 import YouTube from "react-youtube";
+import "../styles/layout.css";
+import * as styles from "./layout.module.css";
 
 const serializers = {
   types: {
@@ -11,7 +13,11 @@ const serializers = {
     youtube: ({ node }) => {
       const { url } = node;
       const id = getYouTubeId(url);
-      return <YouTube videoId={id} />;
+      return (
+        <div className={styles.containerVideo}>
+          <YouTube videoId={id} />
+        </div>
+      );
     },
   },
 };
