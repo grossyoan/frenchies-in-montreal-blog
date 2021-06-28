@@ -25,6 +25,11 @@
   }
 }
 
+figcaption {
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
 .containerVideo {
   position: relative;
   width: 100%;
