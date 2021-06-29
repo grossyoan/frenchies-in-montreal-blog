@@ -22,8 +22,8 @@ function BlogPost(props) {
         <div className={styles.mainImage}>
           <img
             src={imageUrlFor(buildImageObj(mainImage))
-              .width(1920 * 1.5)
-              .height(Math.floor((9 / 16) * 1920 * 1.5))
+              .width(1920 * 2)
+              .height(Math.floor((9 / 16) * 1920 * 2))
               .fit("crop")
               .auto("format")
               .url()}
